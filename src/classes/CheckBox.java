@@ -1,5 +1,5 @@
 package classes;
 
 public interface CheckBox {
-    public void render();
+    void render();
 }

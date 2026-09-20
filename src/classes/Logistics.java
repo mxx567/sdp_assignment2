@@ -1,7 +1,7 @@
 package classes;
 
 public abstract class Logistics {
-    public abstract Transport createTransport();
+    protected abstract Transport createTransport();
 
     public void planDelivery(String object, String destination){
         Transport transport = createTransport();
